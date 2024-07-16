@@ -110,6 +110,16 @@ hr{
     margin: 0;
 }
 
+#piedepagina ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#piedepagina li{
+      display: inline-block;
+}
+
 #piedepagina i{
     font-size: 1.7rem;
     color: #fff;
