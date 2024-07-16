@@ -4,6 +4,114 @@
     margin: 0;
 }
 
+body{
+    background-color: #000 !important;
+}
+
+/* Navbar */
 .logo{
-    width: 1.7rem;
+    width: 1.75rem;    
+}
+
+#logo-tipo{    
+    font-size: 1.25rem;
+    color: #fff;    
+}
+
+.texto-nav{
+    font-size: 1rem;
+    color: #fff;        
+}
+
+/* Carousel */
+
+
+
+
+/* Contenido */
+#contenido{
+    background-color: #000;
+}
+.titulos-secciones{
+    font-size: 2rem;
+    text-align: center;
+    color: #fff;
+    margin-top: 2rem;
+}
+
+hr{
+    background-color: #249DAA;
+    width: 100%;
+    height: 0.2rem;
+}
+
+/* Presentacion */
+#Presentacion{
+    background-color: #000;
+}
+.texto-presentacion{
+    font-size: 1rem;
+    color: #fff;    
+}
+
+.contenedor-iconos{
+    background-color: #249DAA;
+    text-align: center;      
+}
+
+#Presentacion i{
+   font-size: 1.7rem;
+   color: #fff;
+   margin-top: 0.25rem;
+   margin-bottom: 0.25rem;
+}
+
+/* Destacados */
+#Destacados{
+    background-color: #000; 
+}
+
+/* Card */
+
+/* .card img{
+    width: 16.1rem;
+    height: 10.7rem;    
+} */
+
+.card-background{
+    background-color: #249DAA;
+
+}
+
+.card-body h5{
+    font-size: 1.25rem;
+    color: #fff;
+}
+
+.card-body p{
+    font-size: 1rem;
+    color: #fff;
+}
+
+/* Form */
+.texto-form{
+   font-size: 1.2rem ;
+   color: #fff; 
+}
+
+/* Footer */
+#piedepagina{
+    background-color: #249DAA;     
+}
+
+#logotipo{
+    font-size: 1.5rem;
+    color: #fff;
+    margin: 0;
+}
+
+#piedepagina i{
+    font-size: 1.7rem;
+    color: #fff;
+    margin: 0.2em;
 }
