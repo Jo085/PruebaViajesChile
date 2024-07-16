@@ -36,13 +36,14 @@ body{
     font-size: 2rem;
     text-align: center;
     color: #fff;
-    margin-top: 2rem;
+    margin-top: 2.5rem;
+    margin-bottom: 1.5rem;
 }
 
 hr{
     background-color: #249DAA;
     width: 100%;
-    height: 0.2rem;
+    height: 2px;
 }
 
 /* Presentacion */
@@ -68,18 +69,18 @@ hr{
 
 /* Destacados */
 #Destacados{
-    background-color: #000; 
+    background-color: #000;     
 }
 
 /* Card */
-
-/* .card img{
-    width: 16.1rem;
-    height: 10.7rem;    
-} */
+.card img{
+    width:100%;
+    height: 10rem;
+    object-fit: cover;    
+}
 
 .card-background{
-    background-color: #249DAA;
+    background-color: #249DAA !important;
 
 }
 
@@ -97,6 +98,10 @@ hr{
 .texto-form{
    font-size: 1.2rem ;
    color: #fff; 
+}
+
+#myBtn{
+    background-color: #249DAA;
 }
 
 /* Footer */
