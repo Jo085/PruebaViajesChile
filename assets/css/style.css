@@ -28,7 +28,9 @@ body {
 }
 
 /* Carousel */
-
+.c-img{
+    width: 100vw;  
+}
 
 /* Contenido */
 #contenido {
@@ -148,6 +150,7 @@ hr {
   margin: 0.2em;
 }
 
+/* La sección de Presentación desaparece en tamaños pequeños de pantalla */
 @media (max-width: 576px) {
   #Presentacion {
     display: none;

@@ -37,13 +37,13 @@
                         <a class="nav-link text-white texto-nav" href="#">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white texto-nav" href="#">Quiénes Somos</a>
+                        <a class="nav-link text-white texto-nav" href="#Presentacion">Quiénes Somos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white texto-nav" href="#" >Destacados</a>
+                        <a class="nav-link text-white texto-nav" href="#Destacados" >Destacados</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white texto-nav" href="#" >Contacto</a>
+                        <a class="nav-link text-white texto-nav" href="#formulariodecontacto" >Contacto</a>
                     </li>
                     </ul>
               </div>    
@@ -51,23 +51,23 @@
         </nav>
 
     <!--Carousel-->
-        <div id="carouselExample" class="carousel slide">
+        <div id="carousel" class="carousel slide carousel-fade">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="FotoCarrusel1">
+                <img src="assets/img/carousel1.jpg" class="c-img" alt="FotoCarrusel1">
               </div>
               <div class="carousel-item">
-                <img src="assets/img/carousel2.jpg" class="d-block w-100" alt="FotoCarrusel2">
+                <img src="assets/img/carousel2.jpg" class="c-img" alt="FotoCarrusel2">
               </div>
               <div class="carousel-item">
-                <img src="assets/img/carousel3.jpg" class="d-block w-100" alt="FotoCarrusel3">
+                <img src="assets/img/carousel3.jpg" class="c-img" alt="FotoCarrusel3">
               </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
               <span class="carousel-control-next-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Next</span>
             </button>
@@ -85,7 +85,7 @@
                 <hr>
                 <div class="row">
                     <div class="col-12 col-lg-4 my-3">
-                        <div class="contenedor-iconos">
+                        <div class="contenedor-iconos mb-2">
                             <i class="fa-solid fa-plane"></i>
                         </div> 
                         <p class="texto-presentacion">
@@ -109,7 +109,7 @@
                         </div>                       
                     </div>        
                     <div class="col-12 col-lg-4 my-3">
-                        <div class="contenedor-iconos">
+                        <div class="contenedor-iconos mb-2">
                             <i class="fa-solid fa-route"></i>
                         </div>  
                         <p class="texto-presentacion">
@@ -200,7 +200,7 @@
                     <textarea class="form-control" id="FormControlMensaje" rows="6"></textarea>
                   </div>
                   <div class="container ps-0">
-                    <button type="submit" class="btn text-white"  id="myBtn">Enviar</button>
+                    <button type="submit" class="btn text-white"  id="myBtn" data-bs-toggle="tooltip" data-bs-title="Haz clic para enviar el mensaje">Enviar</button>
                   </div>            
             </div>
         </section>
